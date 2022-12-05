@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.links {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in-out;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.links:hover {
+    color: #ff5470;
+    transform: scale(1.1);
+}
+
+.usuario {
+    font-size: 1.7rem;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+
+.usuario:hover {
+    color: #ff5470;
+    transform: scale(1.1);
+}
+
+.menu-conteudo {
+    width: 200px;
+}
+
+.menu-perfil {
+    width: 100px;
+}

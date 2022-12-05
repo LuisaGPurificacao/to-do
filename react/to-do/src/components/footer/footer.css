@@ -1,0 +1,18 @@
+footer > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+footer > div > p {
+    margin-left: 2rem;
+}
+
+.star {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: #fde24f;
+    filter: drop-shadow(1px 1px #e4b020);
+}

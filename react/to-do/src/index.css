@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Expletus+Sans&family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
+/*
+font-family: 'Candal', sans-serif;
+font-family: 'Expletus Sans', cursive;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Libre Bodoni', serif;
+*/
+/*
+PALETA
+#fffffe
+#f2f4f6
+#00214d
+#1b2d45
+#00ebc7
+#ff5470
+#fde24f
+#001534
+*/
+body {
+    background-color: #f2f4f6;
+}
+
+h1 {
+    font-family: 'Candal', sans-serif;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Expletus Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+*::selection {
+    color: #fffffe;
+    background-color: #001534;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ff5470;
+    border-radius: 20px;
+}

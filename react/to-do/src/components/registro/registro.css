@@ -1,0 +1,103 @@
+.icones-form {
+    font-size: 16px;
+    width: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.background {
+    background: url("../../img/fundo.png");
+    background-size: cover;
+    height: 20rem;
+    width: 50rem;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-form {
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    border-radius: 4rem;
+    margin: 4.5rem auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    text-align: center;
+}
+
+.div-input {
+    display: flex;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    justify-content: center;
+    background-color: #f2f4f6;
+    margin: 1rem auto;
+}
+
+input {
+    color: #000;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    padding: 0.7rem;
+    padding-right: 5rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    width: 100%;
+    margin: 0;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+.div-botao {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+#enviar {
+    width: 30rem;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 4rem;
+    font-weight: bold;
+    background-color: #00ebc7;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    transform: scale(1.06);
+}
+
+.destaque {
+    color: #000;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+}
+
+.destaque:hover {
+    color: #ff5470;
+}

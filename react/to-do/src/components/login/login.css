@@ -1,0 +1,48 @@
+.background-login {
+    background: url("../../img/fundo.png");
+    background-size: cover;
+    height: 16rem;
+    width: 50rem;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-form-login {
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    border-radius: 4rem;
+    margin: 4rem auto;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    text-align: center;
+}
+
+#enviar-login {
+    width: 30rem;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 4rem;
+    font-weight: bold;
+    background-color: #fde24f;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#enviar-login:hover {
+    transform: scale(1.06);
+}
